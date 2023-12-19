@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <head>
+        <title>task1</title>
+        <link rel="stylesheet" href="task.css">
+    
+    <style>
+    /* Define the styles for each box */
+    
+    .top {
+      width: 200px;
+      height: 30px;
+      padding: 20px;
+      margin: 20px;
+      border: 1px solid black;
+      background-color: lightblue;
+      
+      
+    }
+    
+    .middle {
+        width: 200px;
+      height: 30px;
+      padding: 20px;
+      margin: 20px;
+      border: 1px solid black;
+      background-color: lightblue;
+    }
+    
+    .bottom {
+        width: 200px;
+      height: 30px;
+      padding: 20px;
+      margin: 20px;
+      border: 1px solid black;
+      background-color: lightblue;
+    
+    }
+    
+    /* Make each box expand upon clicking */
+    
+    
+    
+    
+    
+    
+    .top:hover {
+        /* width:150px;  */
+        height:auto; /* Keep the height as it is */
+        
+        
+    }
+    
+    .middle:hover {
+        width: 200px;
+         /* Keep the width as it is */
+        height:auto; 
+        /* Keep the height as it is */
+    }
+    
+    .bottom:hover {
+        width: 200px;; /* Keep the width as it is */
+        height: auto;; /* Keep the height as it is */
+    }
+    
+    </style>
+    <script src="task.js">
+        
+        
+    </script>
+    </head>
+    <body>
+    
+        <div class="div1">
+            
+            <h3>----Bundle & Save----</h3>
+    
+            <!-- Create three div elements with different class names -->
+            <div class="top">        
+                <div >
+                    <div>
+                        <input type="radio" id="show1" name="example"  onclick="showField1()">
+                        <label for="show1" ><span>1 pair</span>
+                            <div id="d1">DKK 195.00</div>
+                        </label>
+                    </div>
+                    <h4 id="h1">50% OFF</h4>
+                    <div id="hidden-field1" style="display: none;">
+                        <table id="hidden-field1">
+                            <thead>
+                                <th>size</th>
+                                <th>color</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <select>
+                                            <option value="s">s</option>
+                                            <option value="L">L</option>
+                                            <option value="XL">XL</option>
+                                        </select>
+                                    </td>
+                                    <td><select>
+                                            <option value="red">Red</option>
+                                            <option value="pink">Pink</option>
+                                            <option value="green">green</option>
+                    
+                                        </select></td>
+                                </tr>
+                            </tbody>
+                        </table>
+            
+                    </div>
+                </div>
+            
+            </div>
+            
+            <div class="middle">
+                <div >
+                    <div>
+                        <input type="radio" id="show2" name="example"  onclick="showField2()">
+                        <label for="show2" ><span>2 pair</span>
+                            <div id="d1">DKK 345.00</div>
+                        </label>
+        
+                    </div>
+                    <h4 id="h1">
+                        <div id="m1">Most Popular</div>40% OFF</h4>
+    
+                    <div id="hidden-field2" style="display: none;">
+                        <table id="hidden-field2">
+                            <thead>
+                                <th>size</th>
+                                <th>color</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>#1
+                                        <select>
+                                            <option value="s">s</option>
+                                            <option value="L">L</option>
+                                            <option value="XL">XL</option>
+                                        </select>
+                                    </td>
+                                    <td><select>
+                                            <option value="red">Red</option>
+                                            <option value="pink">Pink</option>
+                                            <option value="green">green</option>
+                                        </select></td>
+                                </tr>
+                                <tr>
+                                    <td>#2 <select>
+                                            <option value="s">s</option>
+                                            <option value="L">L</option>
+                                            <option value="XL">XL</option>
+                                        </select></td>
+                                    <td><select>
+                                            <option value="red">Red</option>
+                                            <option value="pink">Pink</option>
+                                            <option value="green">green</option>
+                                        </select></td>
+                                </tr>
+                            </tbody>
+                        </table>
+            
+        
+                    </div>
+                </div>
+        
+            </div>
+            <div class="bottom">
+                
+                <div>
+                    <input type="radio" id="show3" name="example"  onclick="showField3()">
+                    <label for="show3">3 pair 
+                        <div id="d1">DKK 528.00</div>
+    
+                    </label>
+    
+                </div>
+                <h3 id="h1">60% OFF</h3>
+                <div id="hidden-field3" style="display: none;">
+                    <table id="hidden-field3">
+                        <thead>
+                            <th>size</th>
+                            <th>color</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>#1
+                                    <select>
+                                        <option value="s">s</option>
+                                        <option value="L">L</option>
+                                        <option value="XL">XL</option>
+                                    </select>
+                                </td>
+                                <td><select>
+                                        <option value="red">Red</option>
+                                        <option value="pink">Pink</option>
+                                        <option value="green">green</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td>#2 <select>
+                                        <option value="s">s</option>
+                                        <option value="L">L</option>
+                                        <option value="XL">XL</option>
+                                    </select></td>
+                                <td><select>
+                                        <option value="red">Red</option>
+                                        <option value="pink">Pink</option>
+                                        <option value="green">green</option>
+                                    </select></td>
+                            </tr>
+                            <!-- <tr>
+                                <td>#3
+                                    <select>
+                                        <option value="s">s</option>
+                                        <option value="L">L</option>
+                                        <option value="XL">XL</option>
+                                    </select>
+                                </td>
+                                <td><select>
+                                        <option value="red">Red</option>
+                                        <option value="pink">Pink</option>
+                                        <option value="green">green</option>
+                                    </select></td>
+                            </tr> -->
+        
+                        </tbody>
+                    </table>
+        
+                </div>
+    
+            </div>
+            <h3 id="id4">Free 2 Day Shipping</h3>
+            <h4 id="id5">Total:DKK 360.00</h4>
+            <div>
+                <button type="submit" id="id6">+ ADD to Cart</button>
+    
+            </div>
+    
+    </div>
+    
+        
+    
+    </body>
+    </html>
